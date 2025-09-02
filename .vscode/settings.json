@@ -1,0 +1,19 @@
+{
+    "python.analysis.stubPath": ".vscode",
+    "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": ["src"],
+    "files.exclude": {
+        "**/*.egg-info": true,
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+    },
+    "yaml.schemas": {
+        "dabs:///databricks-asset-bundles.json": "file:///Users/fediwannes/Desktop/asset-bundle/dab_project/dab_project/resources/citibike_etl_pipeline_nb.job.yml"
+    },
+}
